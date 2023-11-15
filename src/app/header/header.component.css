@@ -1,0 +1,42 @@
+header{
+    background-color: black;
+    padding: 0;
+    border-bottom: 2px solid #e72929;
+}
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white; /* Cambia esto según tu diseño */
+  }
+a:hover{
+    color: #e72929;
+    background-color: white;
+}
+  
+.logo-image {
+    width: 40px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    margin-right: 10px; /* Ajusta el espaciado según tus necesidades */
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+}
