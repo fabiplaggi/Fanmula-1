@@ -1,7 +1,22 @@
+
 <ul>
     <li *ngFor="let producto of productos">
         <a>
-            <img src="{{producto}}" alt="producto imagen">
+            <img src="{{producto.imageUrl}}" alt="producto imagen">
+            <div class="content">
+                    <div class="descripcion">
+                        {{producto.descripcion}}
+                    </div>
+            
+                <div class="product-item-footer">
+                    <div class="escuderias">
+                        <span> {{producto.escuderia}} </span>
+                    </div>
+                    <div class="precio">
+                        {{producto.precio | currency}}
+                    </div>
+                </div>
+            </div>
         </a>
     </li>
 </ul>
